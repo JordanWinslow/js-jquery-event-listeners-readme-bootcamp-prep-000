@@ -12,6 +12,6 @@ function getIt() {
 
 function frameIt() {
   $("img").on("load", function(e){
-    e.classList.add("tasty")
+    document.querySelector("img").classList.add("tasty")
   })
 }

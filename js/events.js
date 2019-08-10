@@ -12,6 +12,6 @@ function getIt() {
 
 function frameIt() {
   $("body").on("load", function(){
-    $("classList.add
+    $("img").classList.add("tasty")
   })
 }

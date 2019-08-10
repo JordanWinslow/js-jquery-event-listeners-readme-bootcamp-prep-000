@@ -11,5 +11,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $("body").on("load", )
+  $("body").on("load", function(){
+    $("classList.add
+  })
 }

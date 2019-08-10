@@ -15,3 +15,11 @@ function frameIt() {
     document.querySelector("img").classList.add("tasty")
   })
 }
+
+function pressIt() {
+  $("input").on("keydown", function(e){
+    if(e.key === "g"){
+      alert("You Pressed the g Key")
+    }
+  })
+}

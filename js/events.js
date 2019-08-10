@@ -17,8 +17,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  document.querySelector("input").addEventListener("keydown", function(e){
-    if(e.key === "g"){
+  $("input").on("keydown", function(key){
+    if(key.which === "g"){
       alert("You Pressed the g Key!")
     }
   })

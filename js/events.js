@@ -22,4 +22,16 @@ function pressIt() {
       alert("You Pressed the g Key!")
     }
   })
+  
+  /* personally I'd rather just use vanilla javascript as follows:
+  
+  document.querySelector("img").addEventListener("keydown", function(e){
+    if(e.key === "g"){ // rather than having to figure out the keycode we just type "g"
+      alert("You Pressed the g Key!")
+    }
+  } */
+}
+
+function submitIt() {
+  $()
 }

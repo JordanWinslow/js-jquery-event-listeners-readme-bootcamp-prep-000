@@ -17,7 +17,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  document.querySelector("img").addEventListener("keydown", function(e){
+  document.querySelector("input").addEventListener("keydown", function(e){
     if(e.key === "g"){
       alert("You Pressed the g Key!")
     }

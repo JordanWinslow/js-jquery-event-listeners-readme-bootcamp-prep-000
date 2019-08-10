@@ -17,9 +17,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  $("input").on("keydown", function(e){
+  document.querySelector("img").addEventListener("keydown", function(e){
     if(e.key === "g"){
-      alert("You Pressed the g Key")
+      alert("You Pressed the g Key!")
     }
   })
 }

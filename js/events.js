@@ -18,7 +18,7 @@ function frameIt() {
 
 function pressIt() {
   document.querySelector("input").addEventListener("keydown", function(e){
-    if(e.key === "g"){
+    if(e.key === "KeyG"){
       alert("You Pressed the g Key!")
     }
   })
